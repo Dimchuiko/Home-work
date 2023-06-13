@@ -1,0 +1,137 @@
+.main {
+  position: relative;
+  width: 1440px;
+  height: 4521px;
+  padding-left: 235px;
+  padding-right: 235px;
+
+  background: #ffffff;
+}
+
+.header {
+  width: 1440px;
+  height: 80px
+  
+
+}
+.header-menu{
+  width: 496px;
+  height: 30px;
+  flex-direction: row;
+  align-items: center;
+  padding: 25px;
+  
+  gap: 40px;
+  
+
+}
+
+hr {
+  width: 970px;
+  height: 0px;
+  left: 235px;
+  bottom: 10px;
+  border: 1px solid #828282;
+  }
+
+
+ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 40px;
+  list-style: none;
+  
+}
+p {
+  text-align: center;
+  font-size: 18px;
+}
+h1 {
+  width: 200px;
+  height: 40px;
+  text-align: center;
+}
+h2 {
+  text-align: center;
+  font-size: 34;
+  padding-bottom: 50px;
+}
+
+
+.first-screen {
+  width: 970px;
+  height: 497px;
+  left: 235px;
+  top: 92px;
+}
+
+.about-me {
+  flex: none;
+  text-align: center;
+}
+
+
+.product-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactss {
+  height: 400px;
+  left: 235px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 34;
+  padding-bottom: 50px;
+  padding: 0px 3px;
+  gap: 60px;
+  padding-top: 100px;
+}
+  
+
+ 
+  
+
+
+
+
+
+.links {
+  width: 310px;
+  height: 114px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 30px;
+
+}
+button {
+  width: 180px;
+  height: 44px;
+  background: #070707;
+  border-radius: 22px;
+  border: none;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+.text {
+  width: 200px;
+  height: 60px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+}
