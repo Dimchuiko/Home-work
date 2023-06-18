@@ -1,0 +1,115 @@
+.header {
+    width: 1440px;
+    height: 80px;
+    
+    
+
+}
+.logo {
+    padding: 10px 209px 10px 135px;
+}
+
+.header-menu {
+    
+    gap: 30px;
+}
+.mb {
+    margin-bottom: 20px;
+}
+.fs {
+    font-size: 18px;
+}
+.sp
+ {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #646464;
+}
+
+.button {
+    font-family: 'Lato';
+    font-style: normal;
+    width: 130px;
+    height: 42px;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 19px 136px 19px 246px;
+    background: #FFFFFF;
+}
+
+.main {
+    width: 100%;
+    width: 1440px;
+    height: 833px;
+    background-color: #F6F6F6;
+}
+.whoweare {
+    padding-top: 150px;
+}
+
+#h1 {
+    text-align: center;
+    width: 368px;
+    height: 34px;
+    margin: 0px 536px 64px 536px;
+}
+
+.span {
+    
+    font-family: 'Lato';
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    width: 570px;
+    height: 42px;
+    margin: 0px 435px 60px 435px;
+    color: #3C3C3C;
+    
+
+}
+.span-2 {
+    display: block;
+    text-align: center;
+    
+}
+
+.workers {
+   
+    width: 1170px;
+    height: 333px;
+    gap: 30px;
+    margin: 60px 135px 150px 135px;
+}
+.card {
+    width: 270px;
+    height: 270px;
+
+}
+.logo-2 {
+    
+padding: 40px 635px 28px 635px;
+}
+.fl-row-cent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.footer {
+    width: 1440px;
+    height: 260px;
+}
+.footer-menu {
+    width: 384px;
+    height: 22px;
+    gap: 30px;
+    margin: 0px 528px 28px 528px;
+}
+.icons {
+    margin: 0px 595px 40px 595px;
+    gap: 10px;
+}
