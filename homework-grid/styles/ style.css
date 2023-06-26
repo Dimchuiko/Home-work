@@ -1,0 +1,133 @@
+.pictures {
+    display: grid;
+    grid-template: repeat(5, minmax(50px, 1fr)) / repeat(3, minmax(50px, 1fr));
+    gap: 1.5rem;
+    grid-template-areas:
+        "pooja dom doyle"
+        "devn dom noah"
+        "sincerely seth noah"
+        "sincerely melissa melissa"
+        "brooke brooke clem";
+    gap: 1rem;
+    padding: 1rem;
+    margin-bottom: 50px;
+    
+
+    
+}
+.pictures>img {
+    width: 100%;
+}
+.pictures>img:nth-child(1) {
+    
+    grid-area: pooja;
+}
+.pictures>img:nth-child(2) {
+   
+    grid-area: dom;
+}
+.pictures>img:nth-child(3) {
+    
+    grid-area: doyle;
+}
+
+.pictures>img:nth-child(4) {
+    
+    grid-area: devn;
+}
+.pictures>img:nth-child(5) {
+   grid-area: sincerely;
+}
+.pictures>img:nth-child(6) {
+    grid-area: noah;
+}
+.pictures>img:nth-child(7) {
+    
+    grid-area: seth;
+}
+.pictures>img:nth-child(8) {
+    
+    grid-area: melissa;
+}
+.pictures>img:nth-child(9) {
+   
+    grid-area: brooke;
+}
+.pictures>img:nth-child(10) {
+    
+    grid-area: clem;
+}
+
+
+
+.life {
+    display: grid;
+    grid-template: repeat(4, minmax 50px, 1fr) / repeat(3, minmax 50px, 1fr) ;
+    gap: 1.5rem;
+    grid-template-areas:
+    "robert sean sean"
+    "john john dave"
+    "john john dave"
+    "leonard leonard rob";
+    
+    gap: 1rem;
+    padding: 1rem;
+    margin-bottom: 50px;
+}
+
+.life>img{
+    width: 100%;
+}
+.life>img:nth-child(1) {
+    grid-area: robert;
+}
+.life>img:nth-child(2) {
+    grid-area: sean;
+}
+.life>img:nth-child(3) {
+    grid-area: john;
+}
+.life>img:nth-child(4) {
+    grid-area: dave;
+}
+.life>img:nth-child(5) {
+    grid-area: leonard;
+}
+.life>img:nth-child(6) {
+    grid-area: rob;
+}
+
+
+.onemore {
+    display: grid;
+    grid-template: repeat(3, minmax (50px, 1rem)) / repeat(3, minmax(50px,1rem));
+    gap: 1rem;
+}
+.onemore>img {
+    width: 100%;
+}
+/* .onemore>img:nth-child(1) {
+   grid-area:1 / 2 / 1 / 2 ; 
+}
+.onemore>img:nth-child(2) {
+    grid-area: 1 / 2 / 2 / 4;
+}
+.onemore>img:nth-child(3) {
+    grid-area: 2 / 3 / 1 / 3;
+}
+.onemore>img:nth-child(4) {
+    grid-area: 2 / 3 / 3 / 4;
+}
+.onemore>img:nth-child(5) {
+    grid-area: 3 / 4 / 1 / 2;
+}
+.onemore>img:nth-child(6) {
+    grid-area: 3 / 4 / 2 / 4;
+} */
+.onemore>img:nth-child(2),
+.onemore>img:nth-child(6) {
+    grid-column: 2 / 4;
+}
+.onemore>img:nth-child(3) {
+    grid-column: 1 / 3;
+}
