@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link href="./styles/ style.css" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form</title>
+  </head>
+  <body>
+
+    <form class="form">
+      <h1>Create an Account</h1>
+
+  <div class="form__fiild">
+
+    <div class="name">
+      
+      <label for="name" id="name" name="name">First Name</label>
+      <input type="text">
+    </div>
+
+    <div class="form__field">
+      <label for="last name" name="last name" id="last name">Last Name</label>
+      <input type="text">
+    </div>
+  </div>
+
+    <div class="form__field">
+      <label class="form__label" id="email" for="email">E-mail</label>
+      <input type="email" name="email" id="email"><br>
+      <label for="text">We'll never share your email with anyone else.</label>
+    </div>
+
+    <div class="radio">
+
+    <input type="radio" name="gender">
+    <label for="male" id="male" name="male">Male</label>
+
+    <input type="radio" name="gender">
+    <label for="female" id="female" name="female">Female</label>
+    </div>
+
+    <div class="place">
+
+    <label for="select">Country</label>
+    <select name="select" id="select" >
+      <option value="">New-York</option>
+      <option value="">London</option>
+      <option value="">Berlin</option>
+      <option value="">Kyiv</option>
+    </select>
+    <label for="">City</label>
+    <input type="text">
+    </div>
+    
+    <button>Sign Up</button>
+
+<p>By clicking the 'Sign Up' button, you confirm that you accept our 
+ <a href="terms">Terms of Use</a> and <a href="policy">Privacy Policy</a></p>
+<hr>
+<div class="login">
+<p>Have an account?</p>
+<a href="Log In">Log In</a>
+ 
+</div>
+    </form>
+  </body>
+</html>
