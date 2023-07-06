@@ -1,15 +1,134 @@
-.form {
+
+
+/* .form {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
+    padding: 10px; */
+    
+/* } */
+.main-section {
+    display: flex;
+    width: 1330px;
+    /* width: 100%; */
     padding: 10px;
+    background-color: lightgrey;
+}
+.form-1,
+.form-2 {
+    Width: 570px;
+    Height: 590px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 50px;
+    padding: 20px;
+    background-color: white;
     
 }
 
-.form__field {
+.country,
+.first-name,
+.zip-phone,
+.country-select,
+.country-2,
+#have-an-account,
+.name,
+.zipcode,
+#button-photo{
+    margin-right: 30px;
+}
+
+
+.login,
+.form__fiild,
+.place {
+    display: flex;
+    
+}
+.login {
+    justify-content: center;
+}
+
+.city>input,
+.first-name>input,
+.last-name>input,
+select {
+    Width: 245px;
+    Height: 38px;
+    margin-top: 5px;
+    border-radius: 10px;
+    
+    
+}
+.input-email {
+    width: 500px;
+    height: 38px;
+    border-radius: 10px;
+    ;
+
+}
+
+#country {
     position: relative;
 }
-.name {
+#count {
+    position: absolute;
+    top: 210px
+}
+#city
+ {
+    margin-left 10px;
+}
+.button {
+    Width: 500px;
+    Height : 38px;
+    background-color: blue;
+    font-size: 15px;
+    color: white;
+    border-style: none;
+    border-radius: 10px;
+}
+
+.photo {
     display: flex;
+}
+#button-photo {
+    width: 178px;
+    height: 30px;
+    background-color: white;
+}
+#button-trash {
+    width: 30px;
+    height: 30px;
+}
+
+/* .button>img {
+    padding-right: 10px;
+} */
+.name-email,
+.zip-phone,
+.country-select {
+    display: flex;
+
+}
+
+
+.name-email>input,
+#name,
+#email,
+#country,
+#city,
+#zipcode,
+#phone-number {
+    Width: 245px;
+    Height: 38px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+.button-update {
+    Width: 150px;
+    Height: 38px;
 }

@@ -9,27 +9,27 @@
     <title>form</title>
   </head>
   <body>
-
-    <form class="form">
+<section class="main-section">
+    <form class="form-1">
       <h1>Create an Account</h1>
 
   <div class="form__fiild">
 
-    <div class="name">
+    <div class="first-name">
       
-      <label for="name" id="name" name="name">First Name</label>
+      <label for="name" id="name" name="name">First Name</label><br>
       <input type="text">
     </div>
 
-    <div class="form__field">
-      <label for="last name" name="last name" id="last name">Last Name</label>
+    <div class="last-name">
+      <label for="last name" name="last name" id="last name">Last Name</label><br>
       <input type="text">
     </div>
   </div>
 
-    <div class="form__field">
-      <label class="form__label" id="email" for="email">E-mail</label>
-      <input type="email" name="email" id="email"><br>
+    <div class="e-mail">
+      <label class="" id="email" for="email">E-mail</label><br>
+      <input class="input-email" type="email" name="email" id="email"><br>
       <label for="text">We'll never share your email with anyone else.</label>
     </div>
 
@@ -43,28 +43,87 @@
     </div>
 
     <div class="place">
-
-    <label for="select">Country</label>
+<div class="country">
+    <label for="select">Country</label><br>
     <select name="select" id="select" >
       <option value="">New-York</option>
       <option value="">London</option>
       <option value="">Berlin</option>
       <option value="">Kyiv</option>
     </select>
-    <label for="">City</label>
+  </div>
+  
+  <div class="city">
+    <label id="city">City</label><br>
     <input type="text">
-    </div>
+  </div>
+</div>
+   
     
-    <button>Sign Up</button>
+    <button class="button">Sign Up</button>
 
 <p>By clicking the 'Sign Up' button, you confirm that you accept our 
  <a href="terms">Terms of Use</a> and <a href="policy">Privacy Policy</a></p>
 <hr>
 <div class="login">
-<p>Have an account?</p>
+<p id="have-an-account">Have an account?</p>
 <a href="Log In">Log In</a>
- 
+ </div>
+
+</form>
+
+    <form class="form-2" action="">
+      <h1>Profile</h1>
+      <div class="photo">
+        <img src="./icons/Image.jpg" alt="pic">
+        <button id="button-photo">
+          <input style="border-color: white; " type="text">
+          <img style="position: relative;" src="./icons/🔹 Icon Color.svg" alt="">
+        </button>
+        <label style="position: absolute; top: 160px; left: 825PX; width: 178px; height: 38px;" for="">Up to 1 MB (300x300 px)</label>
+        <button id="button-trash"><img src="./icons/Trash.svg" alt=""></button>
+        
+      </div>
+<div class="name-email">
+    <div class="name">
+      <span>Name</span>
+      <input id="name" type="text">
+    </div>
+    <div class="email">
+      <span>E-mail</span>
+      <input id="email" type="email">
+    </div>
+  </div>
+
+    <div class="country-select">
+      <div class="country-2">
+      <span id="">Country</span>
+      <select name="country" id="country">
+        <option value="">New-York</option>
+        <option value="">London</option>
+        <option value="">Berlin</option>
+        <option value="">Kyiv</option>
+      </select>
+    </div>
+      <div class="city-area">
+        <span>City</span><br>
+        <input id="city" type="text">
+      </div>
 </div>
+
+<div class="zip-phone">
+<div class="zipcode">
+  <span>Zip Code</span>
+  <input itemid="zipcode" type="text" name="zipcode" id="zipcode">
+</div>
+<div class="phone-number">
+  <span>Phone Number</span>
+  <input item id="phone-number" type="number" name="" id="">
+</div>
+</div>
+
+<button class="button button-update">Update</button>
     </form>
+  </section>
   </body>
 </html>
