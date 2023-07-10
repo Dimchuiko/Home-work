@@ -117,3 +117,12 @@ select {
     Width: 150px;
     Height: 38px;
 }
+
+@media (max-width :768px) {
+    .main-section {
+        flex-direction: column;
+        width: 768px;
+        background-size: 100%;
+    }
+    
+}
