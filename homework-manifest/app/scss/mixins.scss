@@ -1,0 +1,9 @@
+@use './variables' as var;
+
+@mixin section-padding {
+    padding-inline: var.$desktop-inline-padding;
+}
+
+@mixin tablet-screen {
+    width:var.$tablet-screen ;
+}
