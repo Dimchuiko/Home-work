@@ -1,0 +1,43 @@
+@use './variables' as var;
+
+@mixin section-padding {
+    padding-inline: var.$desktop-inline-padding;
+}
+
+@mixin tablet-screen {
+    width:var.$tablet-screen ;
+}
+
+@mixin pic-size {
+    width: 1920px;
+    height: 862px;
+    background-repeat: no-repeat;
+}
+
+@mixin text-p {
+    font-family: Josefin Sans;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px; /* 175% */
+    letter-spacing: 1.6px;
+    margin-bottom: 32px;
+}
+@mixin card-position {
+    h2{
+        padding-top: 20px;
+    }
+    h3 {
+        font-family: Aleo;
+        font-size: 36px;
+        padding-top: 24px;
+        
+
+    }
+    p {
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+    #button-3 {
+        width: 213px;
+    }
+}
