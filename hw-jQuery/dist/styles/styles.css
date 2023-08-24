@@ -1,0 +1,90 @@
+.header {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #F8F1EA;
+}
+
+nav > a {
+  font-family: Montserrat;
+  font-size: 20px;
+  margin-right: 30px;
+  text-decoration: none;
+  color: black;
+}
+
+.slider-2 h1 {
+  text-align: center;
+}
+
+.card-1 > span {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.card-1 > p {
+  width: 224px;
+  text-align: center;
+  border-radius: 250px;
+}
+
+.section-our-partners h1 {
+  background: #F8F1EA;
+  text-align: center;
+  padding-top: 30px;
+}
+.section-our-partners__items {
+  height: 290px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  background: #F8F1EA;
+  padding-top: 100px;
+}
+
+button {
+  width: 40px;
+  height: 74px;
+  flex-shrink: 0;
+}
+
+#btn {
+  width: 227px;
+  height: 50px;
+  position: relative;
+  left: 43%;
+  margin-bottom: 50px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  height: 350px;
+  background: var(--brown-dark, #35312D);
+  padding: 70px 135px;
+}
+.footer__logo-nav img {
+  width: 150px;
+  height: 30px;
+  margin-bottom: 35px;
+}
+.footer__logo-nav a {
+  display: flex;
+  font-size: 20px;
+  color: white;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.footer__contact h2 {
+  color: var(--brown-light, #F8F1EA);
+  font-family: Montserrat;
+  font-size: 26px;
+  margin-bottom: 50px;
+}
+.footer__contact img {
+  margin-right: 35px;
+  margin-bottom: 35px;
+}
+
+/*# sourceMappingURL=styles.css.map */
